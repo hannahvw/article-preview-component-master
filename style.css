@@ -25,6 +25,92 @@ html {
   font-family: "Manrope", sans-serif;
 }
 
+body {
+  background-color: var(--color-200);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
 p {
   font-size: 0.8125rem;
+}
+
+.container {
+  max-width: 375px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.container-image {
+  height: 250px;
+  overflow: hidden;
+}
+
+.container-text {
+  padding: 30px 40px 20px 40px;
+}
+
+.title {
+  color: var(--color-800);
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  color: var(--color-600);
+  line-height: 1.5;
+  letter-spacing: 0.9px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-footer img {
+  border-radius: 50%;
+  width: 40px;
+}
+
+.share-button img {
+  width: 15px;
+}
+
+.share-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: var(--color-200);
+  border-radius: 50%;
+}
+
+.container-footer-text {
+  margin-left: -75px;
+}
+
+.author {
+  color: var(--color-600);
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.date {
+  color: var(--color-400);
+  font-weight: 500;
 }
