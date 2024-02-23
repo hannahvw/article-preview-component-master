@@ -82,6 +82,7 @@ p {
   margin-top: -25px;
   justify-content: space-evenly;
   align-items: center;
+  display: none;
 }
 
 .container-footer--social-media p {
@@ -121,7 +122,6 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  display: none;
 }
 
 .container-footer img {
