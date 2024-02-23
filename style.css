@@ -44,7 +44,7 @@ p {
 }
 
 .container {
-  max-width: 375px;
+  max-width: 370px;
   background-color: #fff;
   margin-bottom: 20px;
   border-radius: 15px;
@@ -113,4 +113,23 @@ p {
 .date {
   color: var(--color-400);
   font-weight: 500;
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 800px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+
+  .container-image img {
+    width: 100%;
+  }
+  .container-text {
+    padding: 20px 50px;
+  }
+  .container-footer-text {
+    margin-left: -150px;
+  }
 }
