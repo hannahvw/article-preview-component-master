@@ -1,8 +1,30 @@
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 
-    *, *::after, *::before {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-800: hsl(217, 19%, 35%);
+  --color-600: hsl(214, 17%, 51%);
+  --color-400: hsl(212, 23%, 69%);
+  --color-200: hsl(210, 46%, 95%);
+}
+
+html {
+  font-family: "Manrope", sans-serif;
+}
+
+p {
+  font-size: 0.8125rem;
+}
