@@ -6,12 +6,20 @@ let buttonState = false;
 
 function showIcons() {
   buttonState = !buttonState;
-  if (buttonState) {
-    socialMedia.style.display = "flex";
-    footer.style.display = "none";
+  if (window.innerWidth < 1440) {
+    if (buttonState) {
+      socialMedia.style.display = "flex";
+      footer.style.display = "none";
+    } else {
+      footer.style.display = "flex";
+      socialMedia.style.display = "none";
+    }
   } else {
-    footer.style.display = "flex";
-    socialMedia.style.display = "none";
+    if (buttonState) {
+      socialMedia.style.display = "flex";
+    } else {
+      socialMedia.style.display = "none";
+    }
   }
 }
 

@@ -85,6 +85,23 @@ p {
   display: none;
 }
 
+.triangle-isosceles {
+  position:relative;
+  background-color: var(--color-800); 
+}
+
+.container-footer--social-media:after {
+  content:"";
+  position:absolute;
+  bottom: -15px; /* value = - border-top-width - border-bottom-width */
+  left:125px; /* controls horizontal position */
+  border-width:15px 15px 0; /* vary these values to change the angle of the vertex */
+  border-style:solid;
+  border-color: var(--color-800) transparent;
+  display:block;
+  width:0;
+}
+
 .container-footer--social-media p {
   color: var(--color-400);
   text-transform: uppercase;
@@ -169,5 +186,26 @@ p {
   }
   .container-footer-text {
     margin-left: -150px;
+  }
+
+  .container-text {
+    position: relative;
+  }
+
+  .container-footer--social-media {
+    background-color: var(--color-800);
+    position: absolute;
+    right: 255px;
+    top: 725px;
+    width: 275px;
+    border-radius: 10px;
+  }
+
+  .share-button-light {
+    display: none;
+  }
+
+  .container-footer--social-media ul {
+    margin-left: -15px;
   }
 }
