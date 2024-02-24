@@ -86,20 +86,20 @@ p {
 }
 
 .triangle-isosceles {
-  position:relative;
-  background-color: var(--color-800); 
+  position: relative;
+  background-color: var(--color-800);
 }
 
 .container-footer--social-media:after {
-  content:"";
-  position:absolute;
+  content: "";
+  position: absolute;
   bottom: -15px; /* value = - border-top-width - border-bottom-width */
-  left:125px; /* controls horizontal position */
-  border-width:15px 15px 0; /* vary these values to change the angle of the vertex */
-  border-style:solid;
+  left: 125px; /* controls horizontal position */
+  border-width: 15px 15px 0; /* vary these values to change the angle of the vertex */
+  border-style: solid;
   border-color: var(--color-800) transparent;
-  display:block;
-  width:0;
+  display: block;
+  width: 0;
 }
 
 .container-footer--social-media p {
@@ -188,15 +188,15 @@ p {
     margin-left: -150px;
   }
 
-  .container-text {
+  section {
     position: relative;
   }
 
   .container-footer--social-media {
     background-color: var(--color-800);
     position: absolute;
-    right: 255px;
-    top: 725px;
+    right: -65px;
+    top: 110px;
     width: 275px;
     border-radius: 10px;
   }
