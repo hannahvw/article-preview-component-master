@@ -85,7 +85,7 @@ p {
   display: none;
 }
 
-.triangle-isosceles {
+.triangle {
   position: relative;
   background-color: var(--color-800);
 }
